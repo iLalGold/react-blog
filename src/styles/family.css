@@ -1,0 +1,38 @@
+/* Google在线字体 */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.RampartOne {
+  font-family: 'Rampart One', cursive;
+}
+.RubikBeastly {
+  font-family: 'Rubik Beastly', cursive;
+}
+.ZhiMangXing {
+  font-family: 'Zhi Mang Xing', cursive;
+}
+.Mogra {
+  font-family: 'Mogra', cursive;
+}
+.Modak {
+  font-family: 'Modak', cursive;
+}
+.Monoton {
+  font-family: 'Monoton', cursive;
+}
+.Frijole {
+  font-family: 'Frijole', cursive;
+}
+.VastShadow {
+  font-family: 'Vast Shadow', cursive;
+}
+.Pacifico {
+  font-family: 'Pacifico', cursive;
+}
