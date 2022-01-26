@@ -60,9 +60,9 @@ const HeaderLeft = props => {
     <div className='header-left'>
       <Link to='/'>
         <img
-          src={require('@/assets/images/logo.gif')}
+          src={require('@/assets/images/111.jfif')}
           alt='logo'
-          style={{ width: 35, height: 35, transform: 'translateY(-3px)' }}
+          style={{ width: 50, height: 50, transform: 'translateY(-3px)' }}
         />
         <span className='blog-name RampartOne'>{HEADER_BLOG_NAME}</span>
       </Link>

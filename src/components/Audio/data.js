@@ -13,6 +13,97 @@ const apFixedLrcList = {
       theme: MathColor16(),
     },
     {
+      name: 'What U Do',
+      artist: 'Wild Culture; Shel Bee',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0327bf94-5e2f-4e3c-a5bb-13458f9ca3e2.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Except For Us',
+      artist: 'Austin Mahone',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/ebbbe24f-3de8-4afb-973a-dc5045811504.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Bright Blue Skies',
+      artist: 'Mitch James',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0e7790c2-39a9-46c9-802e-b1f731c27abe.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Hold On',
+      artist: 'Fadi',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/66660e5f-034e-4a7c-99c6-130b3705c5fb.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Sweet Sensation',
+      artist: 'Mose N; MD DJ',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/68360fbb-a384-430d-80b7-cfc0f8edf303.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Far Behind',
+      artist: 'Oleska; Otter Berry',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/3da4076a-e43a-4d3e-9772-748b36c359e0.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'By My Side',
+      artist: 'DEAMN',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/3e175233-e794-42a9-8f6c-28b0b3a251fd.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Trip',
+      artist: 'Ella Mai',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/ff448958-6b68-4022-a228-0aa7f2f02386.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Number',
+      artist: 'Alexander Oscar',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0bb891bd-ae54-4e91-a9bc-373f0e50e02b.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Working For The Weekend',
+      artist: 'MAX; bbno$',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/417385a1-d4be-4d84-80bd-a136cf6aa168.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'None Of My Business',
+      artist: 'Cher Lloyd',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/a3aba58c-e41f-48a9-b7cf-51642f5a1d27.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: `Don't Call Me`,
+      artist: 'Nevada; Loote',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/af37d740-426a-4aef-bda7-f7f47b860bd2.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'K Bye',
+      artist: 'Guard',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/cf5cb192-339c-4c9b-8694-2c6f0044387e.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: ' I`ll Be There',
       artist: 'Jess Glynne',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/05416460-2852-4df8-ba40-f68abedc3b48.mp3',
@@ -68,7 +159,7 @@ const apFixedLrcList = {
       cover: subaruDuck,
       theme: MathColor16(),
     },
-    {
+    /* {
       name: '幸运百分百',
       artist: 'Ayi',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/b731aaee-e50b-4456-a6c8-36bde27d70c6.mp3',
@@ -88,7 +179,7 @@ const apFixedLrcList = {
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/f36902f9-a6ae-4d4b-ba03-478fc7e6aed0.mp3',
       cover: subaruDuck,
       theme: MathColor16(),
-    },
+    }, */
     {
       name: 'Sick Lullaby',
       artist: 'Olivia Addams',
@@ -103,7 +194,7 @@ const apFixedLrcList = {
       cover: subaruDuck,
       theme: MathColor16(),
     },
-    {
+    /*  {
       name: '幼时',
       artist: '泽典',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/6ac53fdc-7fda-475b-aaee-88b42f5cf32f.mp3',
@@ -214,7 +305,7 @@ const apFixedLrcList = {
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/39d10d13-599f-42ac-a58f-df089abac91d.mp3',
       cover: subaruDuck,
       theme: MathColor16(),
-    },
+    }, */
     {
       name: 'No One but Me',
       artist: 'WAO',
@@ -363,13 +454,13 @@ const apFixedLrcList = {
       cover: subaruDuck,
       theme: MathColor16(),
     },
-    {
+    /* {
       name: '嚣张',
       artist: 'en',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/41550c71-704b-48c4-adaf-27f06e2bffcd.mp3',
       cover: subaruDuck,
       theme: MathColor16(),
-    },
+    }, */
     {
       name: 'You Are The Fire',
       artist: 'F.L.O.A.T ',

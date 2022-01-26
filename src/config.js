@@ -14,9 +14,9 @@ export const HEADER_BLOG_NAME = 'gold的博客' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
-  avatar: require('@/assets/images/subaru-duck.gif'), // 侧边栏头像
+  avatar: require('@/assets/images/111.jfif'), // 侧边栏头像
   title: 'gold', // 标题
-  subTitle: `あっけないんだね`, // 子标题
+  subTitle: `学无止境`, // 子标题
   // 个人主页
   homepages: {
     github: {
