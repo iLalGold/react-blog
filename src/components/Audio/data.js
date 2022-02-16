@@ -6,6 +6,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: 'Hands (Diviners Remix)',
+      artist: 'Gareth Emery; London Thor; Diviners; Alastor',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/b7679ab7-efbc-4e3c-959c-ad14547551fc.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: '夏日漱石 (Summer Cozy Rock)',
       artist: '橘子海 (Orange Ocean) ',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0003943c-96fe-49cd-a82a-8730e497d3a4.mp3',
