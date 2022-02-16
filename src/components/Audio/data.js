@@ -6,6 +6,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: '夏日漱石 (Summer Cozy Rock)',
+      artist: '橘子海 (Orange Ocean) ',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0003943c-96fe-49cd-a82a-8730e497d3a4.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: 'Childhood Dreams',
       artist: 'Seraphine',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/009c9a13-d1fb-4f95-8a3d-e57da627f8f5.mp3',
