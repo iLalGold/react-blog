@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react'
 
 // components
@@ -11,11 +13,23 @@ const skills = [
     rate: 4,
   },
   {
-    label: '熟悉 React 并理解其原理，熟悉 Vue 框架及其用法。',
+    label: '熟练使用HTML5、CSS3 的一些新特性。',
     rate: 4,
   },
   {
-    label: '熟悉 UniApp 框架及H5和App开发',
+    label: '熟悉 Typescript 及其用法',
+    rate: 3,
+  },
+  {
+    label: '熟悉 React 框架及其用法',
+    rate: 4,
+  },
+  {
+    label: '熟悉 Vue 框架及其用法。',
+    rate: 4,
+  },
+  {
+    label: '熟悉 UniApp 框架及H5和App混合开发',
     rate: 4,
   },
   {
@@ -28,15 +42,15 @@ const skills = [
   },
   {
     label: '了解 HTTP 协议，缓存、性能优化、安全等，了解浏览器原理。',
-    rate: 3,
+    rate: 2,
   },
   {
     label: '熟悉常用的算法与数据结构',
     rate: 3,
   },
   {
-    label: '熟悉Flutter + Dart + MaterialDesign App跨平台开发',
-    rate: 3,
+    label: '了解Flutter + Dart + MaterialDesign App跨平台开发',
+    rate: 2,
   },
 ]
 
@@ -53,8 +67,8 @@ const MyInfo = () => {
       <Divider orientation='left'>关于我</Divider>
 
       <ul className='about-list'>
-        <li>姓名：gold</li>
-        <li>专业：电子商务</li>
+        <li>金闪闪</li>
+        {/* <li>专业：电子商务</li> */}
         <li>
           联系方式：
           {/*  <Icon type='qq' /> 434358603

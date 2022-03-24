@@ -1,3 +1,5 @@
+<!-- @format -->
+
 ## react hooks + koa + mysql
 
 <!-- > 个人博客系统、即插即用! -->
@@ -108,7 +110,7 @@ const verifyList2 = [
  */
 function checkAuth(method, url) {
   function _verify(list, role) {
-    const target = list.find((v) => {
+    const target = list.find(v => {
       return v.regexp.test(url) && (v.required === 'all' || v.required.toUpperCase().includes(method))
     })
 
@@ -154,12 +156,12 @@ import MyInfo from '@/views/web/about/MyInfo'
 export const API_BASE_URL = 'http://127.0.0.1:6060'
 
 // project config
-export const HEADER_BLOG_NAME = 'gold的博客' // header title 显示的名字
+export const HEADER_BLOG_NAME = '金闪闪的博客' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
   avatar: require('@/assets/images/avatar.gif'), // 侧边栏头像
-  title: 'gold', // 标题
+  title: '金闪闪', // 标题
   subTitle: '前端打杂人员', // 子标题
   // 个人主页
   homepages: {
