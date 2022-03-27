@@ -1,3 +1,5 @@
+/** @format */
+
 import subaruDuck from '@/assets/images/subaru-duck.gif'
 import { MathColor16 } from '@/utils/MathColor'
 const apFixedLrcList = {
@@ -5,6 +7,13 @@ const apFixedLrcList = {
   mini: true,
   lrcType: 3,
   audio: [
+    {
+      name: 'A&G,Khalid',
+      artist: 'Location (A&G Remix)',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/a870d534-99a9-4024-a294-93ab3080a17d.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
     {
       name: 'Hands (Diviners Remix)',
       artist: 'Gareth Emery; London Thor; Diviners; Alastor',
