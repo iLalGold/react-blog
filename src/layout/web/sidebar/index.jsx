@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect, useState } from 'react'
 import { SIDEBAR } from '@/config'
 import axios from '@/utils/axios'
@@ -30,8 +32,42 @@ function SideBar(props) {
   return (
     <aside className='app-sidebar'>
       <img src={SIDEBAR.avatar} className='sider-avatar' alt='' />
-      <h2 className='title RampartOne'>{SIDEBAR.title}</h2>
-      <h5 className='sub-title RampartOne'>{SIDEBAR.subTitle}</h5>
+      {/* <h2 className='title RampartOne'>{SIDEBAR.title}</h2> */}
+      <svg width='100%' height='100'>
+        <text text-anchor='middle' x='45%' y='70%' className='title RampartOne'>
+          {SIDEBAR.title2}
+        </text>
+        <text text-anchor='middle' x='45%' y='70%' className='title title-1'>
+          {SIDEBAR.title2}
+        </text>
+        <text text-anchor='middle' x='45%' y='70%' className='title title-2'>
+          {SIDEBAR.title2}
+        </text>
+        <text text-anchor='middle' x='45%' y='70%' className='title title-3'>
+          {SIDEBAR.title2}
+        </text>
+        <text text-anchor='middle' x='45%' y='70%' className='title title-4'>
+          {SIDEBAR.title2}
+        </text>
+      </svg>
+      <svg width='100%' height='80'>
+        <text text-anchor='middle' x='55%' y='50%' className='title RampartOne'>
+          {SIDEBAR.title}
+        </text>
+        <text text-anchor='middle' x='55%' y='50%' className='title title-1'>
+          {SIDEBAR.title}
+        </text>
+        <text text-anchor='middle' x='55%' y='50%' className='title title-2'>
+          {SIDEBAR.title}
+        </text>
+        <text text-anchor='middle' x='55%' y='50%' className='title title-3'>
+          {SIDEBAR.title}
+        </text>
+        <text text-anchor='middle' x='55%' y='50%' className='title title-4'>
+          {SIDEBAR.title}
+        </text>
+      </svg>
+      {/* <h5 className='sub-title RampartOne'>{SIDEBAR.subTitle}</h5> */}
       <ul className='home-pages'>
         {Object.entries(SIDEBAR.homepages).map(([linkName, item]) => (
           <li key={linkName}>
