@@ -15,6 +15,13 @@ const apFixedLrcList = {
       theme: MathColor16(),
     },
     {
+      name: '染まるよ',
+      artist: 'チャットモンチー',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/63a72320-7dbb-4ca9-be12-dc9b5ecc509f.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: 'Hands (Diviners Remix)',
       artist: 'Gareth Emery; London Thor; Diviners; Alastor',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/b7679ab7-efbc-4e3c-959c-ad14547551fc.mp3',
