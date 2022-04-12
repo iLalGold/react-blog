@@ -12,12 +12,12 @@ import Iconfont from '@/components/Iconfont'
 export const API_BASE_URL = process.env.REACT_APP_API_BASE_URL
 
 // project config
-export const HEADER_BLOG_NAME = 'gold的博客' // header title 显示的名字
+export const HEADER_BLOG_NAME = 'Gold的博客' // header title 显示的名字
 
 // === sidebar
 export const SIDEBAR = {
   avatar: require('@/assets/images/111.jfif'), // 侧边栏头像
-  title: 'gold的博客', // 标题
+  title: 'Gold的博客', // 标题
   title2: 'welcome',
   subTitle: `学无止境`, // 子标题
   // 个人主页

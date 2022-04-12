@@ -165,7 +165,7 @@ export const SIDEBAR = {
   subTitle: '前端打杂人员', // 子标题
   // 个人主页
   homepages: {
-    github: 'https://github.com/MikeyHall',
+    github: 'https://github.com/HallGold',
   },
 }
 
@@ -285,7 +285,7 @@ module.exports = config
 ## 使用这个项目
 
 ```bash
-git clone https://github.com/MikeyHall/react-blog.git
+git clone https://github.com/HallGold/react-blog.git
 
 ## 安装依赖以及开启开发模式
 cd react-blog

@@ -8,6 +8,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: 'Looking Back Someday',
+      artist: 'ItaloBrothers',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/d2c7314a-e44d-4526-96fd-075fc0200e48.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: 'A&G,Khalid',
       artist: 'Location (A&G Remix)',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/a870d534-99a9-4024-a294-93ab3080a17d.mp3',

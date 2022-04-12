@@ -60,14 +60,14 @@ const MyInfo = () => {
       <Divider orientation='left'>博客简述</Divider>
       <p>本博客使用的技术为 react hooks + antd + koa2 + mysql</p>
       <p>
-        源码地址为 <Href href='https://github.com/MikeyHall/react-blog'>github</Href>
+        源码地址为 <Href href='https://github.com/HallGold/react-blog'>github</Href>
         ，仅供参考，不做商业用途！
       </p>
 
       <Divider orientation='left'>关于我</Divider>
 
       <ul className='about-list'>
-        <li>金闪闪</li>
+        <li>Gold</li>
         {/* <li>专业：电子商务</li> */}
         <li>
           联系方式：
