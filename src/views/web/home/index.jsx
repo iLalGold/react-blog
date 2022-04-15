@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useMemo } from 'react'
 import './index.css'
 
@@ -18,7 +20,7 @@ const Home = props => {
   const { loading, pagination, dataList } = useFetchList({
     requestUrl: '/article/list',
     queryParams: { pageSize: HOME_PAGESIZE },
-    fetchDependence: [props.location.search]
+    fetchDependence: [props.location.search],
   })
 
   const list = useMemo(() => {
@@ -43,22 +45,23 @@ const Home = props => {
         {/* serach empty result */}
         {list.length === 0 && keyword && (
           <div className='no-data'>
-            <Empty description={(
-              <span>
-                不存在标题/内容中含有 <span className='keyword'>{keyword}</span> 的文章！
-              </span>
-            )} />
+            <Empty
+              description={
+                <span>
+                  不存在标题/内容中含有 <span className='keyword'>{keyword}</span> 的文章！
+                </span>
+              }
+            />
           </div>
         )}
 
         <Pagination
           {...pagination}
-          onChange={
-            page => {
-              document.querySelector('.app-main').scrollTop = 0 // turn to the top
-              pagination.onChange(page)
-            }
-          } />
+          onChange={page => {
+            document.querySelector('.app-main').scrollTop = 0 // turn to the top
+            pagination.onChange(page)
+          }}
+        />
       </div>
     </Spin>
   )
