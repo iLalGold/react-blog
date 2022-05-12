@@ -8,6 +8,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: 'Gone',
+      artist: 'Monogem',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0afff31b-6ffa-4e85-b97d-437c3277aec3.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: 'Miss a Thing',
       artist: 'Kylie Minogue',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/24e63391-abc6-49c8-863d-a02530e42ad7.mp3',
