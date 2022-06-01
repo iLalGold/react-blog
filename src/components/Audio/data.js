@@ -8,6 +8,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: `Wait a Minute`,
+      artist: 'kuaillzd',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/85212bb0-44fe-4713-bc87-3bba2e894162.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: `Don't Wait Up`,
       artist: 'Shakira',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/dcdad7c4-b640-4822-9825-f5d8d886798c.mp3',
