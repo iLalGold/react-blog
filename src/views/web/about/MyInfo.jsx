@@ -79,7 +79,7 @@ const MyInfo = () => {
         <li>坐标：成都市</li>
         <li>
           其他博客地址：
-          <Href href='http://www.goldglitter.top/web'>gold-web</Href>
+          <Href href='http://www.HallGold.cn/web'>gold-web</Href>
           <Divider type='vertical' />
         </li>
         <li>
