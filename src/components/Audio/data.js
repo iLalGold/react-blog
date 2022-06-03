@@ -8,6 +8,13 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: `Want It`,
+      artist: 'J. Lisk',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/fc648fae-29dc-441a-893f-a4f58be5934f.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: `Wait a Minute`,
       artist: 'kuaillzd',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/85212bb0-44fe-4713-bc87-3bba2e894162.mp3',
