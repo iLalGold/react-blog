@@ -8,6 +8,27 @@ const apFixedLrcList = {
   lrcType: 3,
   audio: [
     {
+      name: 'Soft Lips',
+      artist: 'Wolf Mason',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/dc3961e7-85ba-46dc-a8d1-e7fbd2a282c1.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: 'Childhood Dreams',
+      artist: 'Seraphine',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/009c9a13-d1fb-4f95-8a3d-e57da627f8f5.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
+      name: `Soft Lips`,
+      artist: 'BlankCh3ck',
+      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/cac83d9e-fceb-4d3e-863d-2a75368626c6.mp3',
+      cover: subaruDuck,
+      theme: MathColor16(),
+    },
+    {
       name: `Want It`,
       artist: 'J. Lisk',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/fc648fae-29dc-441a-893f-a4f58be5934f.mp3',
@@ -74,13 +95,6 @@ const apFixedLrcList = {
       name: '夏日漱石 (Summer Cozy Rock)',
       artist: '橘子海 (Orange Ocean) ',
       url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/0003943c-96fe-49cd-a82a-8730e497d3a4.mp3',
-      cover: subaruDuck,
-      theme: MathColor16(),
-    },
-    {
-      name: 'Childhood Dreams',
-      artist: 'Seraphine',
-      url: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-0236c6ca-9ef1-48ca-8cfc-5c3bb9808186/009c9a13-d1fb-4f95-8a3d-e57da627f8f5.mp3',
       cover: subaruDuck,
       theme: MathColor16(),
     },

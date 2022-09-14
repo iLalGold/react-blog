@@ -66,7 +66,7 @@ export const ANNOUNCEMENT = {
   content: (
     <>
       个人Web网站，请访问
-      <Href href='http://www.goldglitter.top/web'> alvin's note</Href>
+      <Href href='http://www.hallgold.cn/web'> alvin's note</Href>
     </>
   ),
 }

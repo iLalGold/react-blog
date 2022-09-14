@@ -32,11 +32,11 @@ const config = {
     expiresIn: '720h' // token 有效期
   },
   DATABASE: {
-    database: 'test',
+    database: 'react_blog',
     user: 'root',
-    password: '123456',
+    password: 'wym950611.',
     options: {
-      host: 'localhost', // 连接的 host 地址
+      host: '43.134.194.226', // 连接的 host 地址
       dialect: 'mysql', // 连接到 mysql
       pool: {
         max: 5,
@@ -53,6 +53,7 @@ const config = {
   }
 }
 
+
 // 部署的环境变量设置
 if (!devMode) {
   console.log('env production....')
@@ -60,17 +61,17 @@ if (!devMode) {
   // ==== 配置数据库
   config.DATABASE = {
     ...config.DATABASE,
-    database: '', // 数据库名
-    user: '', // 账号
-    password: '.' // 密码
+    database: 'react_blog', // 数据库名
+    user: 'root', // 账号
+    password: 'wym950611.' // 密码
   }
 
   // 配置 github 授权
-  config.GITHUB.client_id = ''
-  config.GITHUB.client_secret = ''
+  config.GITHUB.client_id = '4bd8e3804af6ed3e490d'
+  config.GITHUB.client_secret = '491ec9ba1e557df46fad4f1b215a3cee6a43684b'
 
   // ==== 配置 token 密钥
-  config.TOKEN.secret = ''
+  config.TOKEN.secret = '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'
 
   // ==== 配置邮箱
 
@@ -82,5 +83,5 @@ if (!devMode) {
   config.EMAIL_NOTICE.WEB_HOST = 'https://www.goldglitter.top'
 }
 
-module.exports = config
 
+module.exports = config
