@@ -6,7 +6,7 @@ import { useMediaQuery } from 'react-responsive'
 // components
 import { Icon, Divider, Empty, Drawer, Tag, Spin } from 'antd'
 
-const title = '快速导航'
+const title = 'navigation'
 
 const List = props => {
   const { list, showTitle = true } = props

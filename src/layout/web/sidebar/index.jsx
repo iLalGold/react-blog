@@ -71,7 +71,7 @@ function SideBar(props) {
       <ul className='home-pages'>
         {Object.entries(SIDEBAR.homepages).map(([linkName, item]) => (
           <li key={linkName}>
-            {item.icon}
+            <Href href={item.link}> {item.icon}</Href>
             <Href href={item.link}>{linkName}</Href>
           </li>
         ))}
@@ -79,7 +79,7 @@ function SideBar(props) {
 
       {ANNOUNCEMENT.enable && <Alert message={ANNOUNCEMENT.content} type='info' />}
 
-      <Divider orientation='left'>热门文章</Divider>
+      <Divider orientation='left'>Popular</Divider>
       <ul className='article-list'>
         {articleList.map(d => (
           <li key={d.id}>
@@ -88,7 +88,7 @@ function SideBar(props) {
         ))}
       </ul>
 
-      <Divider orientation='left'>标签</Divider>
+      <Divider orientation='left'>Tag</Divider>
       <div className='tag-list'>
         {tagList.map((tag, i) => (
           <Tag key={i} color={tag.color}>

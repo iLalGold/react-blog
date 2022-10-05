@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component } from 'react'
 import { connect, useSelector, useDispatch } from 'react-redux'
 import { withRouter } from 'react-router-dom'
@@ -47,16 +49,11 @@ function UserInfo(props) {
         </Dropdown>
       ) : (
         <>
-          <Button
-            ghost
-            type='primary'
-            size='small'
-            style={{ marginRight: 20 }}
-            onClick={e => bus.emit('openSignModal', 'login')}>
-            登录
+          <Button ghost type='primary' size='small' style={{ marginRight: 20 }} onClick={e => bus.emit('openSignModal', 'login')}>
+            Log In
           </Button>
           <Button ghost type='danger' size='small' onClick={e => bus.emit('openSignModal', 'register')}>
-            注册
+            Register
           </Button>
         </>
       )}

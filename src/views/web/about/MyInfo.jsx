@@ -57,32 +57,32 @@ const skills = [
 const MyInfo = () => {
   return (
     <>
-      <Divider orientation='left'>博客简述</Divider>
-      <p>本博客使用的技术为 react hooks + antd + koa2 + mysql</p>
+      <Divider orientation='left'>Describe</Divider>
+      <p>Technology：react hooks + antd + koa2 + mysql</p>
       <p>
-        源码地址为 <Href href='https://github.com/HallGold/react-blog'>github</Href>
-        ，仅供参考，不做商业用途！
+        Code Address <Href href='https://github.com/HallGold/react-blog'>github</Href>
+        ，for reference only！！！
       </p>
 
-      <Divider orientation='left'>关于我</Divider>
+      <Divider orientation='left'>About Me</Divider>
 
       <ul className='about-list'>
-        <li>Gold</li>
+        <li>HallGold</li>
         {/* <li>专业：电子商务</li> */}
         <li>
-          联系方式：
+          E-Mail：
           {/*  <Icon type='qq' /> 434358603
           <Divider type='vertical' /> */}
           <SvgIcon type='iconemail' style={{ marginRight: 5, transform: 'translateY(2px)' }} />
           <a href='mailto:alvin00216@163.com'>wangyimiao666@gmail.com</a>
         </li>
-        <li>坐标：成都市</li>
+        <li>Coordinate：ChengDu</li>
         <li>
-          其他博客地址：
+          Other Blog：
           <Href href='http://www.HallGold.cn/web'>gold-web</Href>
           <Divider type='vertical' />
         </li>
-        <li>
+        {/* <li>
           技能
           <ul>
             {skills.map((item, i) => (
@@ -92,21 +92,21 @@ const MyInfo = () => {
               </li>
             ))}
           </ul>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           其他
           <ul>
             <li>常用开发工具： vscode、webstorm、git</li>
             <li>熟悉的 UI 框架： antd、element-ui、uView 等</li>
             <li>具备良好的编码风格和习惯，团队规范意识，乐于分享</li>
           </ul>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           个人
           <ul>
             <li>欢迎交流！</li>
           </ul>
-        </li>
+        </li> */}
       </ul>
     </>
   )

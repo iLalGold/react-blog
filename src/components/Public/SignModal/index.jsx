@@ -70,7 +70,7 @@ function SignModal(props) {
 
   return (
     <Modal
-      width={460}
+      width={600}
       title={type}
       visible={visible}
       onCancel={e => setVisible(false)}
@@ -78,45 +78,45 @@ function SignModal(props) {
       <Form layout='horizontal'>
         {type === 'login' ? (
           <>
-            <FormItem label='用户名'>
+            <FormItem label='UserName'>
               {getFieldDecorator('account', {
                 rules: [{ required: true, message: 'Username is required' }]
-              })(<Input placeholder='请输入用户名' />)}
+              })(<Input placeholder='Please enter user name' />)}
             </FormItem>
-            <FormItem label='密码'>
+            <FormItem label='PassWord'>
               {getFieldDecorator('password', {
                 rules: [{ required: true, message: 'Password is required' }]
-              })(<Input placeholder='请输入密码' type='password' />)}
+              })(<Input placeholder='Please enter user PassWord' type='password' />)}
             </FormItem>
           </>
         )
           : (
             <>
-              <FormItem label='用户名'>
+              <FormItem label='UserName'>
                 {getFieldDecorator('username', {
                   rules: [{ required: true, message: 'Username is required' }]
-                })(<Input placeholder='请输入用户名' />)}
+                })(<Input placeholder='Please enter user name' />)}
               </FormItem>
-              <FormItem label='密码'>
+              <FormItem label='PassWord'>
                 {getFieldDecorator('password', {
                   rules: [{ required: true, message: 'Password is required' }]
-                })(<Input placeholder='请输入密码' type='password' />)}
+                })(<Input placeholder='Please enter user PassWord' type='password' />)}
               </FormItem>
-              <FormItem label='确认密码'>
+              <FormItem label='ConfirmPassword'>
                 {getFieldDecorator('confirm', {
                   rules: [
                     { required: true, message: 'Password is required' },
                     { validator: compareToFirstPassword }
                   ]
-                })(<Input placeholder='确认密码' type='password' />)}
+                })(<Input placeholder='Confirm Password' type='password' />)}
               </FormItem>
-              <FormItem label='邮箱'>
+              <FormItem label='E-mail'>
                 {getFieldDecorator('email', {
                   rules: [
                     { type: 'email', message: 'The input is not valid E-mail!' },
                     { required: true, message: 'Please input your E-mail!' }
                   ]
-                })(<Input placeholder='请输入您的邮箱' />)}
+                })(<Input placeholder='Please enter user E-mail' />)}
               </FormItem>
             </>
           )}

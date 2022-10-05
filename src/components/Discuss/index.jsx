@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component, Fragment, useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import './index.less'
@@ -23,14 +25,14 @@ const { TextArea } = Input
 const Editor = ({ onChange, onSubmit, submitting, value, articleId }) => (
   <div>
     <Form.Item>
-      <TextArea rows={4} placeholder='说点什么...' onChange={onChange} value={value} />
+      <TextArea rows={4} placeholder='say something...' onChange={onChange} value={value} />
     </Form.Item>
     <Form.Item>
       <div className='controls'>
         <Icon type='info-circle' className='controls-tip-icon' />
-        <span className='controls-tip'>支持 Markdown 语法</span>
+        <span className='controls-tip'>support Markdown</span>
         <Button className='disscus-btn' htmlType='submit' loading={submitting} onClick={onSubmit} type='primary'>
-          {articleId !== -1 ? '添加评论' : '留言'}
+          {articleId !== -1 ? 'add Comment' : 'send'}
         </Button>
       </div>
     </Form.Item>
@@ -50,12 +52,12 @@ function Discuss(props) {
   const renderDropdownMenu = () => {
     return username ? (
       <Menu onClick={handleMenuClick}>
-        <Menu.Item key='loginout'>注销</Menu.Item>
+        <Menu.Item key='loginout'>Log Out</Menu.Item>
       </Menu>
     ) : (
       <Menu onClick={handleMenuClick}>
-        <Menu.Item key='login'>登录</Menu.Item>
-        <Menu.Item key='register'>注册</Menu.Item>
+        <Menu.Item key='login'>Log In</Menu.Item>
+        <Menu.Item key='register'>Register</Menu.Item>
       </Menu>
     )
   }
@@ -85,9 +87,7 @@ function Discuss(props) {
     if (!value) return
     if (!userInfo.username) return message.warn('您未登陆，请登录后再试。')
 
-    withLoading(
-      axios.post('/discuss', { articleId: props.articleId, content: value, userId: userInfo.userId })
-    ).then(res => {
+    withLoading(axios.post('/discuss', { articleId: props.articleId, content: value, userId: userInfo.userId })).then(res => {
       setValue('')
       props.setCommentList(res.rows)
     })
@@ -97,11 +97,11 @@ function Discuss(props) {
     <div id='discuss'>
       <div className='discuss-header'>
         <span className='discuss-count'>{calcCommentsCount(commentList)}</span>
-        {articleId !== -1 ? '条评论' : '条留言'}
+        {articleId !== -1 ? 'Comment' : 'Message'}
         <span className='discuss-user'>
           <Dropdown overlay={renderDropdownMenu()} trigger={['click', 'hover']}>
             <span>
-              {username || '未登录用户'} <Icon type='down' />
+              {username || 'not logged in'} <Icon type='down' />
             </span>
           </Dropdown>
         </span>
@@ -109,21 +109,9 @@ function Discuss(props) {
       </div>
 
       <Comment
-        avatar={
-          username ? (
-            <AppAvatar userInfo={userInfo} />
-          ) : (
-            <Icon type='github' theme='filled' style={{ fontSize: 40, margin: '5px 5px 0 0' }} />
-          )
-        }
+        avatar={username ? <AppAvatar userInfo={userInfo} /> : <Icon type='github' theme='filled' style={{ fontSize: 40, margin: '5px 5px 0 0' }} />}
         content={
-          <Editor
-            onChange={e => setValue(e.target.value)}
-            onSubmit={handleSubmit}
-            submitting={submitting}
-            value={value}
-            articleId={articleId}
-          />
+          <Editor onChange={e => setValue(e.target.value)} onSubmit={handleSubmit} submitting={submitting} value={value} articleId={articleId} />
         }
       />
 
@@ -133,7 +121,7 @@ function Discuss(props) {
 }
 
 Discuss.propTypes = {
-  commentList: PropTypes.array.isRequired
+  commentList: PropTypes.array.isRequired,
 }
 
 export default Discuss

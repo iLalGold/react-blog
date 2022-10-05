@@ -60,7 +60,7 @@ const HeaderLeft = props => {
     <div className='header-left'>
       <Link to='/'>
         <img
-          src={require('@/assets/images/111.jfif')}
+          src={require('@/assets/images/222.jpg')}
           alt='logo'
           style={{ width: 50, height: 50, transform: 'translateY(-3px)' }}
         />

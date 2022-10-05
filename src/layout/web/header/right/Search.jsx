@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState } from 'react'
 import { Input, Icon, Row } from 'antd'
 import { useHistory, useLocation } from 'react-router-dom'
@@ -36,7 +38,7 @@ function SearchButton(props) {
         onBlur={handleSubmit}
         onPressEnter={handlePressEnter}
         className='search-input'
-        placeholder='搜索文章'
+        placeholder='Search'
         style={{ width: 200 }}
       />
     </div>
